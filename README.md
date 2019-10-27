@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Q1 abswer: An adaptive website might still use hard-coded layout widths. Adaptive layouts plan for specific designs at specific breakpoints. Responsive layouts are going to be more seamless in allowing users to view them on thousands of devices. While design will still be divided between desktop, tablet, and mobile - a responsive design will use responsive units throughout so that the page scales to different devices.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Q2 answer: Mobile first means that the default HTML design is for a mobile device, for a screen width of roughly 500px. It uses media breakpoints with min-width to accomodate larger screens for tablet and desktop.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Q3 answer: This makes the default font size 10 pixels on medium font size settings. It allows the developer to have an easy reference for using rem units when styling font sizes, and it also keeps the page accessible for those who might adjust the font size in their settings.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Q4 answer: Preprocessing is a way to organize your CSS and apply the DRY principle to your styling. Having mixins and variables lessens the amount of CSS you have to write and allows you to make adjustments to multiple areas of a page more easily. And having multiple .less files that import to a main .less file keeps CSS code more organized so you can pinpoint where you need to make adjustments more easily. It also allows you to nest your CSS to select only the elements you want to style.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Q5 answer: My favorite concept in preprocessing in the mixins and variables. It's a great way to write a lot less code and be consistent. The part I struggle with in preprocessing is the nested styling. It can be hard to identify where to insert a media query, for example, in order for it to take effect on the elements you wanted to style.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
