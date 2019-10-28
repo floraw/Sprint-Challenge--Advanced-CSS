@@ -6,6 +6,11 @@
 
     img {
       border-radius: 10px;
+
+      @media @phone {
+        max-width: 100%;
+      }
+
     }
 
     h2 {
@@ -29,6 +34,19 @@
       border-radius: 20px;
       height: 100%;
     }
+
+   .sky, .launch {
+     @media @phone {
+       display: none;
+     }
+   }
+
+   .blast {
+     @media @phone {
+       width: 100%;
+     }
+   }
+
   }
 
   .visit-planets {
@@ -110,6 +128,7 @@
     @media @phone {
       flex-direction: column-reverse;
       padding: 0px;
+      margin-top: 10px;
     }
 
   }
