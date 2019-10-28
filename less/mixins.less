@@ -1,1 +1,21 @@
 // Mixins Here
+
+.anchor {
+    text-decoration: none;
+    color: @river-bend;
+    font-size: 1.8rem;
+    padding: 1%;
+    font-weight: 800;
+}
+
+.button (@width, @height, @bk-color, @color) {
+    background-color: @bk-color;
+    color: @color;
+    text-align: center;
+    height: @height;
+    width: @width;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
